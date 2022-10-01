@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir PPDB Jalur Zonasi Tahun 2020</title>
+</head>
+<body>
+    <h1 align="center">FORMULIR PPDB JALUR ZONASI TAHUN 2020</h1>
+    <form name="fira" method="post" action="proses.php">
+    <table border="1" cellspacing="0" cellpadding="5" align="center" width="1000">
+         <tr align="center" bgcolor="#0090f">
+            <td width="100">Nomor</td>
+            <td width="800">INFO PENDAFTARAN</td>
+         </tr>
+         <tr>
+            <td align=center valign=top>1</td>
+            <td>NISN :<input type="number" id="NISN"></td>
+         </tr>
+         <tr>
+            <td align=center valign=top>2</td>
+            <td>Asal Sekolah :<input type="text" name="asalsekolah"></td>
+         </tr>
+         <tr>
+            <td align=center valign=top>3</td>
+            <td>Tahun Lulus :<input type="number" id="Tahun Lulus"></td>
+        </tr>
+            <td>
+            <label width="500">DATA CALON MURID</label><br>
+            </td>
+        <tr>
+            <td align=center valign=top>4</td>
+            <td>Nama :<input type ="text" name="fnama" required></td>
+         </tr>
+         <tr>
+            <td align=center valign=top>5</td>
+            <td>NIK :<input type="number" id="NIK"></td>   
+         </tr>
+         <tr>
+            <td align=center valign=top>6</td>
+            <td>Tgl Lahir :<input type="date" name="ftgllahir"required></td>
+         </tr>
+         <tr>
+            <td align=center valign=top>7</td>
+            <td>Fotocopy Akte Kelahiran Yang Telah Dilegalisir :<input type="file" name="fberkas" required></td>
+         </tr>
+         <tr>
+            <td align=center valign=top>8</td>
+            <td>Jenis Kelamin :<input type="text" name="jeniskelamin"></td>
+         </tr>
+         <tr>
+            <td align=center valign=top>9</td>
+            <td>Alamat :<input type="text" name="Alamat"></td>
+         </tr>
+         <tr>
+            <td align=center valign=top>10</td>
+            <td>Email Aktif :<input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td align=center valign=top>11</td>
+            <td>Pilihan Program Studi <select name="iprod" required>
+            <option value="11">MIPA</option>
+            <option value="12">IPS</option>
+            <option value="22">IBB</option>
+            </select></td>
+        </tr>
+            <td>
+            <label width="500">DATA ORANG TUA</label>
+            </td>
+        <tr>
+            <td align=center valign=top>12</td>
+            <td>Nomor KK :<input type="number" id="NomorKK"></td>
+        </tr>    
+        <tr>
+            <td align=center valign=top>13</td>
+            <td>Nama Ayah :<input type="text" name="NamaAyah"></td>
+        </tr>
+        <tr>
+            <td align=center valign=top>14</td>
+            <td>Agama : 
+            <p><input type="checkbox" name="fagama1" value="1"><label>Islam</label><br>
+            <input type="checkbox" name="fagama2" value="2"><label>Kristen</label><br>
+            <input type="checkbox" name="fagama3" value="3"><label>Katolik</label><br>
+            <input type="checkbox" name="fagama4" value="4"><label>Hindu</label><br>
+            <input type="checkbox" name="fagama5" value="5"><labe>Budha</label><br>
+            <input type="checkbox" name="fagama6" value="6"><label>Konghucu</label><br></labe></p>
+            </td>
+        </tr>
+        <tr>
+            <td align=center valign=top>15</td>
+            <td>Pekerjaan : <input type="text" name="pekerjaan"></td>
+        </tr>
+        <tr>
+            <td align=center valign=top>16</td>
+            <td>Nama Ibu : <input type="text" name="NamaIbu"></td>
+        </tr>
+        <tr>
+            <td align=center valign=top>17</td>
+            <td>Agama : 
+            <p><input type="checkbox" name="fagama1" value="1"><label>Islam</label><br>
+            <input type="checkbox" name="fagama2" value="2"><label>Kristen</label><br>
+            <input type="checkbox" name="fagama3" value="3"><label>Katolik</label><br>
+            <input type="checkbox" name="fagama4" value="4"><label>Hindu</label><br>
+            <input type="checkbox" name="fagama5" value="5"><labe>Budha</label><br>
+            <input type="checkbox" name="fagama6" value="6"><label>Konghucu</label><br></labe></p>
+            </td>
+        </tr>
+        <tr>
+            <td align=center valign=top>18</td>
+            <td>Pekerjaan : <input type="text" name="pekerjaan"></td>
+        </tr>
+        <tr>
+            <td align=center valign=top>19</td>
+            <td>Alamat :<input type="text" name="Alamat"></td> 
+        </tr>
+        <tr>
+        <td>Ijazah :</td>
+        <td> <input type="file" name="ifile" name="fberkas" required> </td>
+        </tr>
+        <tr>
+        <td><input type="submit" name="isub"><input type="reset" name="ireset"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
